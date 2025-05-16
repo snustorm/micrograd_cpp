@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/micrograd_cpp.dir/test.cpp.o CMakeFiles/micrograd_cpp.dir/value.cpp.o CMakeFiles/micrograd_cpp.dir/ops.cpp.o -o micrograd_cpp 
