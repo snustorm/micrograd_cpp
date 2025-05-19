@@ -1,3 +1,0 @@
-/home/snustorm/projects/micrograd_cpp/build/CMakeFiles/micrograd_cpp.dir
-/home/snustorm/projects/micrograd_cpp/build/CMakeFiles/edit_cache.dir
-/home/snustorm/projects/micrograd_cpp/build/CMakeFiles/rebuild_cache.dir
