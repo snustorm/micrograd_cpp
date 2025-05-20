@@ -63,6 +63,8 @@ CMakeFiles/micrograd_cpp.dir/ops.cpp.o
  /usr/include/c++/13/bits/predefined_ops.h
  /usr/include/c++/13/bits/ptr_traits.h
  /usr/include/c++/13/bits/quoted_string.h
+ /usr/include/c++/13/bits/random.h
+ /usr/include/c++/13/bits/random.tcc
  /usr/include/c++/13/bits/range_access.h
  /usr/include/c++/13/bits/refwrap.h
  /usr/include/c++/13/bits/requires_hosted.h
@@ -83,6 +85,7 @@ CMakeFiles/micrograd_cpp.dir/ops.cpp.o
  /usr/include/c++/13/bits/stl_iterator_base_funcs.h
  /usr/include/c++/13/bits/stl_iterator_base_types.h
  /usr/include/c++/13/bits/stl_multiset.h
+ /usr/include/c++/13/bits/stl_numeric.h
  /usr/include/c++/13/bits/stl_pair.h
  /usr/include/c++/13/bits/stl_raw_storage_iter.h
  /usr/include/c++/13/bits/stl_set.h
@@ -107,6 +110,7 @@ CMakeFiles/micrograd_cpp.dir/ops.cpp.o
  /usr/include/c++/13/cmath
  /usr/include/c++/13/compare
  /usr/include/c++/13/cstddef
+ /usr/include/c++/13/cstdint
  /usr/include/c++/13/cstdio
  /usr/include/c++/13/cstdlib
  /usr/include/c++/13/ctime
@@ -133,10 +137,13 @@ CMakeFiles/micrograd_cpp.dir/ops.cpp.o
  /usr/include/c++/13/locale
  /usr/include/c++/13/memory
  /usr/include/c++/13/new
+ /usr/include/c++/13/numeric
  /usr/include/c++/13/ostream
  /usr/include/c++/13/pstl/execution_defs.h
  /usr/include/c++/13/pstl/glue_memory_defs.h
+ /usr/include/c++/13/pstl/glue_numeric_defs.h
  /usr/include/c++/13/pstl/pstl_config.h
+ /usr/include/c++/13/random
  /usr/include/c++/13/set
  /usr/include/c++/13/sstream
  /usr/include/c++/13/stdexcept
@@ -261,6 +268,7 @@ CMakeFiles/micrograd_cpp.dir/ops.cpp.o
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
@@ -335,6 +343,8 @@ CMakeFiles/micrograd_cpp.dir/test.cpp.o
  /usr/include/c++/13/bits/predefined_ops.h
  /usr/include/c++/13/bits/ptr_traits.h
  /usr/include/c++/13/bits/quoted_string.h
+ /usr/include/c++/13/bits/random.h
+ /usr/include/c++/13/bits/random.tcc
  /usr/include/c++/13/bits/range_access.h
  /usr/include/c++/13/bits/refwrap.h
  /usr/include/c++/13/bits/requires_hosted.h
@@ -355,6 +365,7 @@ CMakeFiles/micrograd_cpp.dir/test.cpp.o
  /usr/include/c++/13/bits/stl_iterator_base_funcs.h
  /usr/include/c++/13/bits/stl_iterator_base_types.h
  /usr/include/c++/13/bits/stl_multiset.h
+ /usr/include/c++/13/bits/stl_numeric.h
  /usr/include/c++/13/bits/stl_pair.h
  /usr/include/c++/13/bits/stl_raw_storage_iter.h
  /usr/include/c++/13/bits/stl_set.h
@@ -379,6 +390,7 @@ CMakeFiles/micrograd_cpp.dir/test.cpp.o
  /usr/include/c++/13/cmath
  /usr/include/c++/13/compare
  /usr/include/c++/13/cstddef
+ /usr/include/c++/13/cstdint
  /usr/include/c++/13/cstdio
  /usr/include/c++/13/cstdlib
  /usr/include/c++/13/ctime
@@ -405,10 +417,13 @@ CMakeFiles/micrograd_cpp.dir/test.cpp.o
  /usr/include/c++/13/locale
  /usr/include/c++/13/memory
  /usr/include/c++/13/new
+ /usr/include/c++/13/numeric
  /usr/include/c++/13/ostream
  /usr/include/c++/13/pstl/execution_defs.h
  /usr/include/c++/13/pstl/glue_memory_defs.h
+ /usr/include/c++/13/pstl/glue_numeric_defs.h
  /usr/include/c++/13/pstl/pstl_config.h
+ /usr/include/c++/13/random
  /usr/include/c++/13/set
  /usr/include/c++/13/sstream
  /usr/include/c++/13/stdexcept
@@ -533,6 +548,7 @@ CMakeFiles/micrograd_cpp.dir/test.cpp.o
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
@@ -547,6 +563,7 @@ CMakeFiles/micrograd_cpp.dir/test.cpp.o
 
 CMakeFiles/micrograd_cpp.dir/value.cpp.o
  /home/snustorm/projects/micrograd_cpp/value.cpp
+ /home/snustorm/projects/micrograd_cpp/ops.h
  /home/snustorm/projects/micrograd_cpp/value.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -606,6 +623,8 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o
  /usr/include/c++/13/bits/predefined_ops.h
  /usr/include/c++/13/bits/ptr_traits.h
  /usr/include/c++/13/bits/quoted_string.h
+ /usr/include/c++/13/bits/random.h
+ /usr/include/c++/13/bits/random.tcc
  /usr/include/c++/13/bits/range_access.h
  /usr/include/c++/13/bits/refwrap.h
  /usr/include/c++/13/bits/requires_hosted.h
@@ -626,6 +645,7 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o
  /usr/include/c++/13/bits/stl_iterator_base_funcs.h
  /usr/include/c++/13/bits/stl_iterator_base_types.h
  /usr/include/c++/13/bits/stl_multiset.h
+ /usr/include/c++/13/bits/stl_numeric.h
  /usr/include/c++/13/bits/stl_pair.h
  /usr/include/c++/13/bits/stl_raw_storage_iter.h
  /usr/include/c++/13/bits/stl_set.h
@@ -650,6 +670,7 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o
  /usr/include/c++/13/cmath
  /usr/include/c++/13/compare
  /usr/include/c++/13/cstddef
+ /usr/include/c++/13/cstdint
  /usr/include/c++/13/cstdio
  /usr/include/c++/13/cstdlib
  /usr/include/c++/13/ctime
@@ -676,10 +697,13 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o
  /usr/include/c++/13/locale
  /usr/include/c++/13/memory
  /usr/include/c++/13/new
+ /usr/include/c++/13/numeric
  /usr/include/c++/13/ostream
  /usr/include/c++/13/pstl/execution_defs.h
  /usr/include/c++/13/pstl/glue_memory_defs.h
+ /usr/include/c++/13/pstl/glue_numeric_defs.h
  /usr/include/c++/13/pstl/pstl_config.h
+ /usr/include/c++/13/random
  /usr/include/c++/13/set
  /usr/include/c++/13/sstream
  /usr/include/c++/13/stdexcept
@@ -804,6 +828,7 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h

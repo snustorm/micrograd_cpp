@@ -62,6 +62,8 @@ CMakeFiles/micrograd_cpp.dir/ops.cpp.o: /home/snustorm/projects/micrograd_cpp/op
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
@@ -82,6 +84,7 @@ CMakeFiles/micrograd_cpp.dir/ops.cpp.o: /home/snustorm/projects/micrograd_cpp/op
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_multiset.h \
+  /usr/include/c++/13/bits/stl_numeric.h \
   /usr/include/c++/13/bits/stl_pair.h \
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_set.h \
@@ -106,6 +109,7 @@ CMakeFiles/micrograd_cpp.dir/ops.cpp.o: /home/snustorm/projects/micrograd_cpp/op
   /usr/include/c++/13/cmath \
   /usr/include/c++/13/compare \
   /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
   /usr/include/c++/13/ctime \
@@ -132,10 +136,13 @@ CMakeFiles/micrograd_cpp.dir/ops.cpp.o: /home/snustorm/projects/micrograd_cpp/op
   /usr/include/c++/13/locale \
   /usr/include/c++/13/memory \
   /usr/include/c++/13/new \
+  /usr/include/c++/13/numeric \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_memory_defs.h \
+  /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/set \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
@@ -260,6 +267,7 @@ CMakeFiles/micrograd_cpp.dir/ops.cpp.o: /home/snustorm/projects/micrograd_cpp/op
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -333,6 +341,8 @@ CMakeFiles/micrograd_cpp.dir/test.cpp.o: /home/snustorm/projects/micrograd_cpp/t
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
@@ -353,6 +363,7 @@ CMakeFiles/micrograd_cpp.dir/test.cpp.o: /home/snustorm/projects/micrograd_cpp/t
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_multiset.h \
+  /usr/include/c++/13/bits/stl_numeric.h \
   /usr/include/c++/13/bits/stl_pair.h \
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_set.h \
@@ -377,6 +388,7 @@ CMakeFiles/micrograd_cpp.dir/test.cpp.o: /home/snustorm/projects/micrograd_cpp/t
   /usr/include/c++/13/cmath \
   /usr/include/c++/13/compare \
   /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
   /usr/include/c++/13/ctime \
@@ -403,10 +415,13 @@ CMakeFiles/micrograd_cpp.dir/test.cpp.o: /home/snustorm/projects/micrograd_cpp/t
   /usr/include/c++/13/locale \
   /usr/include/c++/13/memory \
   /usr/include/c++/13/new \
+  /usr/include/c++/13/numeric \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_memory_defs.h \
+  /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/set \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
@@ -531,6 +546,7 @@ CMakeFiles/micrograd_cpp.dir/test.cpp.o: /home/snustorm/projects/micrograd_cpp/t
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -544,6 +560,7 @@ CMakeFiles/micrograd_cpp.dir/test.cpp.o: /home/snustorm/projects/micrograd_cpp/t
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
 CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/value.cpp \
+  /home/snustorm/projects/micrograd_cpp/ops.h \
   /home/snustorm/projects/micrograd_cpp/value.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -603,6 +620,8 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
@@ -623,6 +642,7 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_multiset.h \
+  /usr/include/c++/13/bits/stl_numeric.h \
   /usr/include/c++/13/bits/stl_pair.h \
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_set.h \
@@ -647,6 +667,7 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
   /usr/include/c++/13/cmath \
   /usr/include/c++/13/compare \
   /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
   /usr/include/c++/13/ctime \
@@ -673,10 +694,13 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
   /usr/include/c++/13/locale \
   /usr/include/c++/13/memory \
   /usr/include/c++/13/new \
+  /usr/include/c++/13/numeric \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_memory_defs.h \
+  /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/set \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
@@ -801,6 +825,7 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -822,8 +847,6 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
-
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
@@ -840,7 +863,15 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
 
-/usr/include/c++/13/istream:
+/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
 /usr/include/c++/13/iomanip:
 
@@ -872,13 +903,7 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 
 /usr/include/c++/13/cstdio:
 
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
 /usr/include/c++/13/cmath:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
 
 /usr/include/c++/13/clocale:
 
@@ -918,6 +943,10 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
+/usr/include/c++/13/bits/stl_numeric.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /usr/include/asm-generic/errno.h:
@@ -944,6 +973,8 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 
 /usr/include/c++/13/cstdlib:
 
+/usr/include/c++/13/cstdint:
+
 /usr/include/c++/13/bits/sstream.tcc:
 
 /usr/include/c++/13/cwctype:
@@ -964,11 +995,17 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
+/usr/include/c++/13/exception:
+
+/usr/include/c++/13/pstl/glue_memory_defs.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
 /usr/include/c++/13/bits/ptr_traits.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
-
 /usr/include/c++/13/bits/cxxabi_forced.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h:
 
 /usr/include/c++/13/ostream:
 
@@ -1006,6 +1043,8 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 
 /usr/include/c++/13/bits/stl_tempbuf.h:
 
+/usr/include/c++/13/bits/random.h:
+
 /usr/include/c++/13/bits/stl_tree.h:
 
 /usr/include/c++/13/bits/codecvt.h:
@@ -1021,8 +1060,6 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 /usr/include/c++/13/bits/utility.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/13/iostream:
 
 /usr/include/c++/13/ext/type_traits.h:
 
@@ -1062,10 +1099,6 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 
 /usr/include/c++/13/cwchar:
 
-/usr/include/c++/13/iosfwd:
-
-/usr/include/c++/13/bits/predefined_ops.h:
-
 /usr/include/c++/13/bits/localefwd.h:
 
 /usr/include/c++/13/bits/streambuf_iterator.h:
@@ -1097,6 +1130,12 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 /usr/include/c++/13/new:
 
 /usr/include/c++/13/bits/hashtable_policy.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+
+/usr/include/c++/13/bits/std_function.h:
+
+/usr/include/c++/13/bits/char_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -1134,8 +1173,6 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 
 /usr/include/c++/13/bits/ios_base.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
-
 /usr/include/c++/13/bits/ostream.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
@@ -1158,13 +1195,25 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 
 /usr/include/c++/13/bits/memoryfwd.h:
 
-/usr/include/c++/13/ios:
-
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/c++/13/bits/node_handle.h:
 
 /usr/include/c++/13/bits/locale_facets_nonio.tcc:
+
+/usr/include/c++/13/bits/predefined_ops.h:
+
+/usr/include/c++/13/iosfwd:
+
+/usr/include/c++/13/ios:
+
+/usr/include/c++/13/iostream:
+
+/usr/include/c++/13/istream:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/c++/13/memory:
 
@@ -1174,11 +1223,15 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
 
-/usr/include/c++/13/exception:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
 
-/usr/include/c++/13/pstl/glue_memory_defs.h:
+/usr/include/c++/13/numeric:
 
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+/usr/include/c++/13/pstl/glue_numeric_defs.h:
+
+/usr/include/c++/13/bits/random.tcc:
+
+/usr/include/c++/13/random:
 
 /usr/include/c++/13/pstl/pstl_config.h:
 
@@ -1288,9 +1341,9 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
@@ -1307,8 +1360,6 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
 
 /usr/include/math.h:
 
@@ -1340,8 +1391,6 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
@@ -1349,11 +1398,3 @@ CMakeFiles/micrograd_cpp.dir/value.cpp.o: /home/snustorm/projects/micrograd_cpp/
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
-
-/usr/include/c++/13/bits/std_function.h:
-
-/usr/include/c++/13/bits/char_traits.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
