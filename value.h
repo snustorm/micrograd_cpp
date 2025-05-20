@@ -7,8 +7,8 @@
 #include <iomanip>
 #include <cmath>
 #include <functional>
-
-
+#include <set>
+#include <type_traits>
 
 class Value : public std::enable_shared_from_this<Value>
 {
@@ -22,81 +22,26 @@ public:
         {}
     
     
-    std::string getValue() const { 
-        std::ostringstream oss;
-        oss << "Value(" << label_
-            << " | data = " << std::fixed << std::setprecision(4) << data_
-            << ", grad = " << std::fixed << std::setprecision(4) << grad_
-            << ")";
-        return oss.str();
-    }
+    std::string getValue() const;
 
-    std::shared_ptr<Value> operator+( Value& other) const {
-        
-        auto self = std::const_pointer_cast<Value>(shared_from_this()); 
-        
-        auto others = std::make_shared<Value>(other);
+    std::shared_ptr<Value> operator+( Value& other) const;
 
-        auto out = std::make_shared<Value>(data_ + other.data_, std::vector{self, others}, "+");
-
-        
-        out->_backward = [self, others, grad = out->grad_]() {
-            self->grad_ += 1.0 * grad;
-            others->grad_ += 1.0 * grad;
-        };
-
-        return out;
-    }
-
-    std::shared_ptr<Value> operator*(const Value& other) const {
-        auto self = std::make_shared<Value>(*this);
-        auto others = std::make_shared<Value>(other);
-
-        //Value out(data_ * other.data_, {self, others}, "*");
-        auto out = std::make_shared<Value>(data_ * other.data_, std::vector{self, others}, "*");
-
-        out->_backward = [self, others, grad = out->grad_]() {
-            self->grad_ += others->data_ * grad;
-            others->grad_ += self->data_ * grad;
-        };
-
-        return out;
-    }
+    std::shared_ptr<Value> operator*(const Value& other) const;
     
-    Value operator-(const Value& other) const {
-        auto self = std::make_shared<Value>(*this);
-        auto others = std::make_shared<Value>(other);
-
-        Value out(data_ - other.data_, {self, others}, "-");
-
-        out._backward = [self, others, grad = out.grad_]() {
-            self->grad_ += 1.0 * grad;
-            others->grad_ -= 1.0 * grad;
-        };
-
-        return out;
-    }
+    Value operator-(const Value& other) const;
     
-    std::shared_ptr<Value> tanh() const {
-        
-        auto self = std::const_pointer_cast<Value>(shared_from_this()); 
-       
-        auto out = std::make_shared<Value>(std::tanh(data_), std::vector{self}, "tanh");
+    std::shared_ptr<Value> tanh() const;
+    
+    std::shared_ptr<Value> exp() const;
 
-        out->_backward = [self, out]() {
-            self->grad_ += (1 - std::pow(std::tanh(self->data_), 2)) * out->grad_;
-        };
+    template<typename T>
+    std::enable_if_t<std::is_same_v<T, int> || std::is_same_v<T, float> || std::is_same_v<T, double>, std::shared_ptr<Value>>
+    pow(T number) const;
 
-        return out;
-    }
+    void printChildren() const;
 
-    void printChildren() const {
-        std::cout << "{ Childrens: ";
-        for (const auto& child : prev_) {
-            std::cout << child->getValue() << " ";
-        }
-        std::cout << "}" << std::endl;
-    }
+    void backward();
+
 
     double data_;
     double grad_;   
@@ -106,3 +51,8 @@ public:
     std::function<void()> _backward = [] () {};
     
 };
+
+
+void build_topo(const std::shared_ptr<Value> & v,
+    std::set<std::shared_ptr<Value>> & visited,
+    std::vector<std::shared_ptr<Value>> & topo);

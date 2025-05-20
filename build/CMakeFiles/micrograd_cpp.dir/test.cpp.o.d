@@ -214,6 +214,8 @@ CMakeFiles/micrograd_cpp.dir/test.cpp.o: \
  /usr/include/c++/13/compare /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/bits/stl_heap.h \
- /usr/include/c++/13/bits/uniform_int_dist.h \
+ /usr/include/c++/13/bits/uniform_int_dist.h /usr/include/c++/13/set \
+ /usr/include/c++/13/bits/stl_tree.h /usr/include/c++/13/bits/stl_set.h \
+ /usr/include/c++/13/bits/stl_multiset.h \
  /home/snustorm/projects/micrograd_cpp/ops.h \
  /home/snustorm/projects/micrograd_cpp/value.h
